@@ -85,12 +85,11 @@ Now you will get name of the wifi networks saved on your pc. Now enter the follo
 
 > Precaution which should be taken : <br>
 
-1. sudo ls -l /etc/NetworkManager/system-connections/
-
+1. sudo ls -l /etc/NetworkManager/system-connections/<br>
 To list all the files, after you have found the network that you want to delete, remove them with the command:<br>
 2. sudo rm /etc/NetworkManager/system-connections/NETWORK_NAME <br>
 
 
 
-Credit : Akash Sharan
+Credit : Akash Sharan<br>
 Source : https://www.geeksforgeeks.org/wi-fi-password-connected-networks-windowslinux/
