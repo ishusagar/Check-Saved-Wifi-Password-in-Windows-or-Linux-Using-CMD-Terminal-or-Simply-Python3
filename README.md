@@ -35,3 +35,8 @@ We have used command ***netsh wlan show profiles*** in our Python script to retr
 **WLAN** commands that allow you to access the Wi-Fi profiles.
 
 **Show** the list of wireless **profiles**.<br>
+
+Source and Credit : https://www.roytuts.com/check-saved-password-in-wifi-network/
+<br>
+
+### 
