@@ -48,11 +48,11 @@ We can uncover these WLAN profiles later by simply using Windows CMD. You can fi
 > **NOTE: Following command will only be executed by administrator** <br>
 
 1. Open command prompt and run it as administrator.
-1. Type **“netsh wlan show profile”** – It will show all profile of Wi-Fi which were earlier connected to the computer.
+2. Type **“netsh wlan show profile”** – It will show all profile of Wi-Fi which were earlier connected to the computer.
 
 ![img1](https://github.com/ishusagar/Check-Saved-Wifi-Password-in-Windows-or-Linux-Using-CMD-Terminal-or-Simply-Python3/blob/master/Images/img1.png)
 
-1. Type this command without quotes ***“netsh wlan show profile fsociety key=clear”***<br>
+3. Type this command without quotes ***“netsh wlan show profile fsociety key=clear”***<br>
 
 ![img2](https://github.com/ishusagar/Check-Saved-Wifi-Password-in-Windows-or-Linux-Using-CMD-Terminal-or-Simply-Python3/blob/master/Images/img2.png)
 
