@@ -1,6 +1,7 @@
 # Check Saved Wifi Password in Windows or Linux Using CMD Terminal or Simply Python3
 
-### Python3
+## Python3
+
 
 > **Prerequisites**<br>
 * Have Python installed in Windows (or Unix)
@@ -39,7 +40,11 @@ We have used command ***netsh wlan show profiles*** in our Python script to retr
 Source and Credit : https://www.roytuts.com/check-saved-password-in-wifi-network/
 <br>
 
-### WINDOWS
+
+
+
+
+## WINDOWS
 
 Whenever we connect to a Wi-Fi network and enter the password, Windows creates a WLAN profile of that Wi-Fi network. These WLAN profiles are stored in the computer alongside other required details of the Wi-Fi profile.<br>
 
@@ -62,3 +67,30 @@ We can uncover these WLAN profiles later by simply using Windows CMD. You can fi
 2. Type netsh wlan delete profile name=”ProfileName” (Delete the desired profile)
 
 
+
+
+## LINUX
+
+
+To find the saved wifi password via command line, follow these steps: Login into Ubuntu and open up the “Terminal”” and enter these commands.
+
+1. Type **cd /etc/NetworkManager/system-connections/** – It contains profile of Wi-Fis
+2. Type **ls -a**
+
+Now you will get name of the wifi networks saved on your pc. Now enter the following command with the name of your wifi network you want to find the password. You can find your password at “psk”=”PASSWORD”.
+
+3. **sudo cat WIFI_SSID_Name**<br>
+
+![img3](https://github.com/ishusagar/Check-Saved-Wifi-Password-in-Windows-or-Linux-Using-CMD-Terminal-or-Simply-Python3/blob/master/Images/img3.png)
+
+> Precaution which should be taken : <br>
+
+1. sudo ls -l /etc/NetworkManager/system-connections/
+
+To list all the files, after you have found the network that you want to delete, remove them with the command:<br>
+2. sudo rm /etc/NetworkManager/system-connections/NETWORK_NAME <br>
+
+
+
+Credit : Akash Sharan
+Source : https://www.geeksforgeeks.org/wi-fi-password-connected-networks-windowslinux/
