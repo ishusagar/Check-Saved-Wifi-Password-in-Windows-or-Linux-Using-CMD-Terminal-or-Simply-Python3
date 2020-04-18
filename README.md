@@ -22,10 +22,12 @@
 ```
 <br>
 
-> Subprocess Module<br>
+> Subprocess Module <br>
+
 We have first imported the required module subprocess. The subprocess module allows you to spawn new processes, connect to input/output/error pipes, and obtain their return codes.<br>
 
-> Additional Command<br>
+> Additional Command <br>
+
 We have used command ***netsh wlan show profiles*** in our Python script to retrieve the stored key from profiles. It will retrieve all keys stored for all profiles in your system. If you have only one profile then it will retrieve for only one profile.
 
 **Netsh** is a command-line scripting utility that allows you to display or modify the network configuration of a computer that is currently running.
